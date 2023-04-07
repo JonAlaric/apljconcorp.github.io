@@ -195,7 +195,6 @@
   /* Services section */
   #services {
 	background-image: url("https://user-images.githubusercontent.com/130130613/230557787-53256836-2d31-495e-9d42-2dd2a0a623d4.jpg");
-	/* background-size: cover; */
 	background-position: center; /* Image Centered */
 	background-attachment: fixed; /*Parallax*/
 	position: relative;
