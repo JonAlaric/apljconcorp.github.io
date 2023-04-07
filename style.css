@@ -90,7 +90,7 @@
   /*Main Body*/
 
   #about-us {
-	background-image: url("https://user-images.githubusercontent.com/130130613/230557768-2dbe4648-828f-405a-b2e7-e6343be18811.png"); 
+	background-image: url("bg1.png"); 
 	background-size: cover;
 	background-position: center; /*Image Centered*/
 	background-attachment: fixed; /*Parallax*/
@@ -116,9 +116,9 @@
   #about-us .about-header {
 	/* background-color: #fff; */
 	display: inline-block;
-	padding: 1rem;
+	padding: 2rem;
 	border-radius: 10px;
-	margin-top: 1rem;
+	margin-top: 10rem;
 }
   
   #about-us h2 { /*Welcome to APLJ*/
@@ -126,7 +126,6 @@
 	margin: 0;
 	font-size: 60px;
 	font-weight: 300;
-	margin-top: 200px;
   }
 
   
@@ -141,7 +140,7 @@
 	display: inline-block;
 	padding: 2rem;
 	border-radius: 10px;
-	margin-top: 2rem;
+	margin-top: 4rem;
 	max-width: 1000px;
 	text-align: justify;
 	opacity: 0%;
@@ -200,6 +199,7 @@
 	background-position: center; /* Image Centered */
 	background-attachment: fixed; /*Parallax*/
 	position: relative;
+	height: 1000px;
   }
 
   .container {
@@ -213,7 +213,7 @@
   .services__title {
 	font-size: 44px;
 	font-weight: bolder;
-	margin: 6rem auto 5rem;
+	margin: 10rem auto 2rem;
 	flex-wrap: wrap;
 	flex-direction: row;
 	color:#fff;
@@ -309,7 +309,7 @@
 	background-color: #033b5e;
 	padding: 1px 0;
 	color: white;
-	height: 1200px;
+
   }
   
   #contact h2 {
@@ -399,7 +399,6 @@
 	color: #fff;
 	padding: 20px;
 	text-align: center;
-	height: 70px;
   }
   
   footer p {
