@@ -1,1 +1,11 @@
 # apljconcorp.github.io
+![bg1](https://user-images.githubusercontent.com/130130613/230557768-2dbe4648-828f-405a-b2e7-e6343be18811.png)
+![bg2](https://user-images.githubusercontent.com/130130613/230557787-53256836-2d31-495e-9d42-2dd2a0a623d4.jpg)
+![s1](https://user-images.githubusercontent.com/130130613/230557790-6c368a44-4dbd-4bb4-9508-26dfa11141c7.jpg)
+![s2](https://user-images.githubusercontent.com/130130613/230557793-485f907d-2c1f-4a5b-af7a-694b107070a0.jpg)
+![s3](https://user-images.githubusercontent.com/130130613/230557798-f4093331-9305-4463-b1e8-d4d00e379817.jpg)
+![s4](https://user-images.githubusercontent.com/130130613/230557799-81c3a59b-1995-4371-892a-729384f43285.jpg)
+![s5](https://user-images.githubusercontent.com/130130613/230557804-b4e84b25-ae15-44b6-b665-6bc4eb72a8d7.jpg)
+![s6](https://user-images.githubusercontent.com/130130613/230557810-8b23bb45-677f-4e00-9e50-efda2e56c0c6.jpg)
+![s7](https://user-images.githubusercontent.com/130130613/230557812-6731ecb0-0250-414b-8139-f6b8af18f8bb.jpg)
+![aplj-logo1](https://user-images.githubusercontent.com/130130613/230557816-df64bdbb-38fa-4a84-8e83-823f5f82e39f.png)
