@@ -1,427 +1,432 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-    font-family: "Montserrat";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Montserrat";
 }
 h1 {
-    font-size: bold;
-    color: white;
-    font-size: 30px;
-    line-height: 20px;
+  font-size: bold;
+  color: white;
+  font-size: 30px;
+  line-height: 20px;
 }
 
 h2 {
-    color: white;
-    font-size: 75%;
-    line-height: 150%;
-    font-weight: 300;
+  color: white;
+  font-size: 75%;
+  line-height: 150%;
+  font-weight: 300;
 
 }
 
 img {
-    width: 100%;
+  width: 100%;
 }
 
+hr {
+  width: 500px;
+  margin: 20px auto;
+}
 
 header .header-left .logo {
-    background-color: white;
-    border-radius: 10%;
-    padding: 5px 5px;
-    width: 90px;
-    height: 45px;
+  background-color: white;
+  border-radius: 10%;
+  padding: 5px 5px;
+  width: 90px;
+  height: 45px;
 }
 
 header {
-    position: sticky;
-    top: 0px;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: #0b2239;
-    list-style: none;
-    padding: 0 30px;
-    z-index: 999;
+  position: sticky;
+  top: 0px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #0b2239;
+  list-style: none;
+  padding: 0 30px;
+  z-index: 999;
 }
 
 header .header-left {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    /* border: 3px solid red; */
-    /* Animation Fadein */
-    opacity: 0;
-    transform: translateY(-20px);
-    animation: fade-in 1s ease-in-out forwards;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  /* border: 3px solid red; */
+  /* Animation Fadein */
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fade-in 1s ease-in-out forwards;
 }
-  
+
 @keyframes fade-in {
-    from {
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  from {
+      opacity: 0;
+      transform: translateY(-20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
 }
 
 
 header .header-left nav ul {
-    display: flex;
+  display: flex;
 }
 
 nav ul li a {
-    display: block;
-    color: #cfd9e0;
-    font-size: 18px;
-    padding: 5px 15px;
-    transition: 0.2s;
+  display: block;
+  color: #cfd9e0;
+  font-size: 18px;
+  padding: 5px 15px;
+  transition: 0.2s;
 }
 
 nav ul li a:hover {
-    font-weight: bold;
-    text-decoration: underline;
+  font-weight: bold;
+  text-decoration: underline;
 
 }
 nav ul li a.active {
-    color: #0b2239;
-    background-color: white;
-    border-radius: 10px;
-    font-weight: bold;
+  color: #0b2239;
+  background-color: white;
+  border-radius: 10px;
+  font-weight: bold;
 }
 
 header .header-right {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 header .header-right .hamburger {
-    /* When hidden */
-    margin-left: 20px;
-    cursor: pointer;
-    display: none;
+  /* When hidden */
+  margin-left: 20px;
+  cursor: pointer;
+  display: none;
 }
 header .header-right .hamburger div {
-    /* When showed  */
-    width: 30px;
-    height: 2px;
-    margin: 6px 0;
-    background: #fff;
+  /* When showed  */
+  width: 30px;
+  height: 2px;
+  margin: 6px 0;
+  background: #fff;
 
 }
 
 #HeroTag {
-    background-image: url('bg1.1.png');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* border: 3px solid red; */
-  }
-  
-  .container {
-    /* border: 3px solid red; */
-    background-color: rgba(11, 34, 57, 0.5);
-    backdrop-filter: blur(5px);
-    padding: 2%;
-    border-radius: 20px;
-    width: 80%;
-    margin: 2rem auto;
-    
-  }
-  
-  #HeroTag .welcome h1 {
-    font-size: 3.5rem;
-    line-height: 60px;
-    color: #fff;
-    text-align: center;
-    /* border: 3px solid red; */
-  }
+  background-image: url('bg1.1.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 3px solid red; */
+}
 
-  #HeroTag .welcome {
-    margin: 10px auto;
-  }
+.container {
+  /* border: 3px solid red; */
+  background-color: rgba(11, 34, 57, 0.5);
+  backdrop-filter: blur(5px);
+  padding: 2%;
+  border-radius: 20px;
+  width: 80%;
+  margin: 2rem auto;
   
-  #HeroTag .blue {
-    color: #007bff;
-  }
-  
-  #HeroTag .tagline {
-    margin-top: 20px;
-    text-align: center;
-    color: #fff;
-    /* border: 3px solid red; */
-
-  }
-  
-  #HeroTag .tagline h2 {
-    font-size: 1rem;
-    line-height: 1.6;
-    margin: 20px 0;
-  }
-  
-  #HeroTag .tagline b {
-    font-weight: bold;
-  }
-
-  .btncontainer {
-    text-align: center;
-  }
-
-  .button {
-    position: relative;
-    display: inline-block;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #fff;
-    outline: 2px solid #0b2239;
-    padding: 10px 40px;
-    margin: 20px;
-    overflow: hidden;
-    transition: color 1s;
-  }
-  .button:hover {
-    color: #090909;
-    font-weight: bold;
-  }
-
-  .button::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -50px;
-    z-index: -1;
-    width: 150%;
-    height: 100%;
-    background-color: white;
-    transform: scaleX(0) skewX(35deg);
-    transform-origin: left;
-    transition: transform 0.5s;
-  }
-
-  .button:hover::before {
-    transform: scaleX(1) skewX(35deg);
-  }
-  
-  #contact {
-    background-image: url('bg2.jpg');
-    background-size: cover;
-    background-position: center;
-    padding: 50px 0;
-  }
-  
-
-  #contact .container {
-    background-color: rgba(11, 34, 57, 0.5)
-  }
-
-  #contact .contactus {
-    margin-bottom: 50px;
-    color: white;
-  }
-
-  #contact .contactus a {
-    margin-bottom: 50px;
-    color: white;
-  }
-  
-  .email {
-    text-decoration: underline;
-  }
+}
 
 
-  #contact h2 {
-    margin-top: 0;
-    font-size: 50px;
-    font-family: 'Montserrat';
-    font-weight: bold;
-    text-align: center;
-  }
-  
-  #contact p {
-    margin-bottom: 10px;
-    text-align: center;
-    font-family: 'Montserrat';
+#HeroTag .welcome h1 {
+  font-size: 3.5rem;
+  line-height: 60px;
+  color: #fff;
+  text-align: center;
+  /* border: 3px solid red; */
+}
 
-  }
-  
-  #contact form {
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 10px;
-  }
-  
-  #contact form .form-group {
-    margin-bottom: 20px;
-    /* border: 3px solid red; */
+#HeroTag .welcome {
+  margin: 10px auto;
+}
 
-  }
-  
-  #contact form label { 
-    /* media query */
-    margin-bottom: 5px;
-    border: 3px solid red;
+#HeroTag .blue {
+  color: #007bff;
+}
 
-  }
-  
-  #contact form input[type="text"],
-  #contact form input[type="email"],
-  #contact form textarea {
-    padding: 10px;
-    font-size: 16px;
-    border-radius: 5px;
-    /* border: none; */
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  
-  
-  #contact form button[type="submit"] {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  #contact form button[type="submit"]:hover {
-    background-color: #0069d9;
-  }
+#HeroTag .tagline {
+  margin-top: 20px;
+  text-align: center;
+  color: #fff;
+  /* border: 3px solid red; */
 
-  
+}
+
+#HeroTag .tagline h2 {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 20px 0;
+}
+
+#HeroTag .tagline b {
+  font-weight: bold;
+}
+
+.btncontainer {
+  text-align: center;
+}
+
+.button {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+  outline: 2px solid #0b2239;
+  padding: 10px 40px;
+  margin: 20px;
+  overflow: hidden;
+  transition: color 1s;
+}
+.button:hover {
+  color: #090909;
+  font-weight: bold;
+}
+
+.button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -50px;
+  z-index: -1;
+  width: 150%;
+  height: 100%;
+  background-color: white;
+  transform: scaleX(0) skewX(35deg);
+  transform-origin: left;
+  transition: transform 0.5s;
+}
+
+.button:hover::before {
+  transform: scaleX(1) skewX(35deg);
+}
+
+#contact {
+  background-image: url('bg2.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+}
+
+
+#contact .container {
+  background-color: rgba(11, 34, 57, 0.5)
+}
+
+#contact .contactus {
+  margin-bottom: 50px;
+  color: white;
+}
+
+#contact .contactus a {
+  margin-bottom: 50px;
+  color: white;
+}
+
+.email {
+  text-decoration: underline;
+}
+
+
+#contact h2 {
+  margin-top: 0;
+  font-size: 50px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  text-align: center;
+}
+
+#contact p {
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: 'Montserrat';
+
+}
+
+#contact form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+#contact form .form-group {
+  margin-bottom: 20px;
+  /* border: 3px solid red; */
+
+}
+
+#contact form label { 
+  /* media query */
+  margin-bottom: 5px;
+  border: 3px solid red;
+
+}
+
+#contact form input[type="text"],
+#contact form input[type="email"],
+#contact form textarea {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  /* border: none; */
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+#contact form button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#contact form button[type="submit"]:hover {
+  background-color: #0069d9;
+}
+
+
 
 @media only screen and (max-width: 1000px) {
-    header {
-        padding: 0;
-    }
-    header .header-right .hamburger {
-        display: block;
-        margin-right: 20px;
-    }
+  header {
+      padding: 0;
+  }
+  header .header-right .hamburger {
+      display: block;
+      margin-right: 20px;
+  }
 
-    header .header-left nav {
-        margin: 0;
-        position: absolute;
-        top: -600%;
-        left: 0;
-        display: block;        
-        height: fit-content;
-        width: 100vw;
-        background-color: #0b2239;
-        background-size: cover;
-        padding: 30px;
-        transition: 0.3s;
-        text-align: center;
-        z-index: -1;
-        /* border: 3px solid red; */
+  header .header-left nav {
+      margin: 0;
+      position: absolute;
+      top: -600%;
+      left: 0;
+      display: block;        
+      height: fit-content;
+      width: 100vw;
+      background-color: #0b2239;
+      background-size: cover;
+      padding: 30px;
+      transition: 0.3s;
+      text-align: center;
+      z-index: -1;
+      /* border: 3px solid red; */
+  }
+
+  header .header-left .logo {
+      display: block;
+      margin-left: 30px;
+      margin-top: 10px;
+      
+  }
+
+  #HeroTag {
+      height: fit-content;
+  }
+
+  #HeroTag .container {
+      margin: 100px;
+  }
+
+
+
+  header .header-left nav.active {
+      top: 55px;
+  }
+  header .header-left nav ul {
+      display: block;
+  }
+
+  #contact {
+      background-color: #f8f9fa;
+      padding: 50px 0;
     }
-
-    header .header-left .logo {
-        display: block;
-        margin-left: 30px;
-        margin-top: 10px;
-        
+    
+    #contact h2 {
+      margin-top: 0;
     }
-
-    #HeroTag {
-        height: fit-content;
+    
+    #contact p {
+      margin-bottom: 10px;
     }
-
-    #HeroTag .container {
-        margin: 100px;
+    
+    #contact form {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
     }
-
-
-
-    header .header-left nav.active {
-        top: 55px;
+    
+    #contact form .form-group {
+      margin-bottom: 20px;
     }
-    header .header-left nav ul {
-        display: block;
+    
+    #contact form label {
+      margin-bottom: 5px;
     }
-
-    #contact {
-        background-color: #f8f9fa;
-        padding: 50px 0;
-      }
-      
-      #contact h2 {
-        margin-top: 0;
-      }
-      
-      #contact p {
-        margin-bottom: 10px;
-      }
-      
-      #contact form {
-        background-color: #fff;
-        padding: 30px;
-        border-radius: 10px;
-      }
-      
-      #contact form .form-group {
-        margin-bottom: 20px;
-      }
-      
-      #contact form label {
-        margin-bottom: 5px;
-      }
-      
-      #contact form input[type="text"],
-      #contact form input[type="email"],
-      #contact form textarea {
-        padding: 10px;
-        font-size: 16px;
-        border-radius: 5px;
-        border: none;
-        width: 100%;
-        margin-bottom: 20px;
-      }
-      
-      #contact form textarea {
-        height: 150px;
-      }
-      
-      #contact form button[type="submit"] {
-        background-color: #007bff;
-        color: #fff;
-        border: none;
-        padding: 10px 20px;
-        border-radius: 5px;
-        font-size: 16px;
-        cursor: pointer;
-      }
-      
-      #contact form button[type="submit"]:hover {
-        background-color: #0069d9;
-      }
+    
+    #contact form input[type="text"],
+    #contact form input[type="email"],
+    #contact form textarea {
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: none;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    
+    #contact form textarea {
+      height: 150px;
+    }
+    
+    #contact form button[type="submit"] {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    
+    #contact form button[type="submit"]:hover {
+      background-color: #0069d9;
+    }
 
 
 }
 @media only screen and (max-width: 500px) {
-    nav .login-signup {
-        display: block;
-        margin-top: 20px;
-    }
-    header .header-right .login-signup {
-        display: none;
-    }
-    #HeroTag {
-        height: fit-content;
-    }
+  nav .login-signup {
+      display: block;
+      margin-top: 20px;
+  }
+  header .header-right .login-signup {
+      display: none;
+  }
+  #HeroTag {
+      height: fit-content;
+  }
 
-    #HeroTag .container {
-        margin: 50px;
-    }
+  #HeroTag .container {
+      margin: 50px;
+  }
 }
